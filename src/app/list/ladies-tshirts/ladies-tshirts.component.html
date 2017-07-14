@@ -1,0 +1,9 @@
+<div>
+  <img src="./assets/pic/4.jpg">
+  Ladies T-Shirts
+</div>
+<div *ngFor="let list of lists">
+    <div *ngIf="list.id == '14'||list.id == '15'||list.id == '16'">
+      <img src={{list.name}}>
+    </div>
+</div>
